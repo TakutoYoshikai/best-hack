@@ -66,6 +66,7 @@ body {
 .hack-description {
   max-width: 300px;
   letter-spacing: 2px;
+  line-height: 22px;
 }
 .hack-image {
 }
