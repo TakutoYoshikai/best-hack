@@ -38,12 +38,39 @@ body {
 }
 
 .hack {
-  margin-bottom: 40px;
+  margin-bottom: 200px;
 }
+.hack-detail {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hack-detail > * {
+  margin: 0 30px 30px 30px;
+}
+
 .title-section {
   margin-bottom: 60px;
 }
 .hack-title {
   font-size: 22px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.hack-description {
+  max-width: 300px;
+  letter-spacing: 2px;
+}
+.hack-image {
+}
+.center {
+  text-align: center;
+}
+.space {
+  width: 50px;
 }
